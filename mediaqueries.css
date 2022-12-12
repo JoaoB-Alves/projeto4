@@ -1,0 +1,137 @@
+@media screen and (max-width: 880px) and (min-width: 100px){
+.collection-row1, .collection-row2{
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+  flex-wrap: wrap;
+}
+nav{
+  display: none;
+  padding: 0;
+}
+.menu-container2{
+  padding: 20px;
+}
+
+}
+
+@media screen and (max-width: 700px) and (min-width: 100px){
+.hero-container{
+  align-items: unset;
+  flex-direction: column-reverse;
+  justify-content: unset;
+}
+.hero{
+  width: 100%;
+}
+.hero-title{
+  width: 100%;
+}
+.showcase-container{
+  align-items: unset;
+  justify-content: unset;
+  flex-direction: column-reverse;
+}
+.showcase-image{
+  width: 100%;
+}
+.showcase-title{
+  width: 100%;
+  padding: 20px 0;
+}
+.blog-container{
+ flex-wrap: wrap;
+}
+.second-showcase-container{
+  flex-direction: column;
+  justify-content: unset;
+  align-items: unset;
+}
+.second-showcase-title{
+  width: 100%;
+}
+.second-showcase-image{
+  width: 100%;
+}
+.footer-container{
+  flex-wrap: wrap;
+}
+.company, .help, .social, .contact{
+  padding: 10px;
+}
+.nav-active{
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 480px) and (min-width: 100px){
+.hero-title,.showcase-title,.second-showcase-title{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.blog-title{
+  text-align: center;
+}
+.showcase-review-stars{
+  justify-content: center;
+}
+.footer-container{
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.company, .help, .social, .contact{
+  width: 100%;
+}
+.hidden-ul > li{
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 340px) and (min-width: 100px){
+.credits{
+  justify-content: center;
+  text-align: center;
+  flex-direction: column-reverse;
+}
+.credits > p{
+ padding: 20px 0;
+}
+.news-letter{
+  text-align: center;
+}
+.hero,.second-showcase-image,.showcase-image{
+  height: 300px;
+}
+.blog-section{
+  padding: 20px 0;
+}
+h2{
+  text-align: center;
+}
+.sorting-container{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sorting{
+  padding: 10px 0;
+}
+.sorting-blank{
+  margin: 10px 0;
+}
+.login2{
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+}
+.login2 > div{
+  margin: 10px 0;
+}
+.hidden-ul > li{
+ line-height: 1.5em;
+}
+}
